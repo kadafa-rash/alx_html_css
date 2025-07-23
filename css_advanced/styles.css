@@ -135,3 +135,98 @@ color: #aaa;
 .center_text{
     text-align: center;
 }
+body {
+font-family: 'Helvetica Neue', sans-serif;
+background-color: #f9f9f9;
+margin: 0;
+padding: 0;
+}
+
+.section-title {
+text-align: center;
+font-size: 24px;
+margin: 40px 0 20px;
+color: #000;
+}
+ 
+.tutorials {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 24px;
+padding: 20px;
+}
+
+.card {
+background-color: white;
+width: 230px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: transform 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card img {
+width: 100%;
+height: 140px;
+object-fit: cover;
+position: relative;
+}
+
+.play-button {
+position: relative;
+}
+
+.play-button::after {
+content: '▶';
+font-size: 28px;
+color: #a25aff;
+background-color:white;
+border-radius: 50%;
+padding: 12px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.card-content {
+padding: 16px;
+}
+
+.card-title {
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+.card-description {
+font-size: 14px;
+color: #666;
+margin-bottom: 16px;
+}
+
+.card-footer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 13px;
+color: #888;
+}
+
+.instructor {
+color: #a25aff;
+font-weight: bold;
+}
+
+.rating {
+color: #a25aff;
+}
+
+.duration {
+font-size: 12px;
+color:#a25aff;
+}
