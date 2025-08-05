@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+header {
+  background:url('/headphones/images/ject.png') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #ff5c5c;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: backgroud 0.3s;
+}
+
+.cta-button:hover {
+  background: #e14e4e;
+}
+
+.hero p {
+  font-size: 14px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    align-items: center;          
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;             
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.what {
+    text-align: center;
+}
+.what-we-do h2 {
+    font-size: 24px;
+    color: #0b0b2c;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.description {
+    font-size: 10px;               
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.service {
+    flex: 1 1 200px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 16px;
+    color: #0b0b2c;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
