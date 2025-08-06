@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+header {
+  background:url('/headphones/images/ject.png') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #ff5c5c;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: backgroud 0.3s;
+}
+
+.cta-button:hover {
+  background: #e14e4e;
+}
+
+.hero p {
+  font-size: 14px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+    align-items: center;          
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;             
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.what {
+    text-align: center;
+}
+.what-we-do h2 {
+    font-size: 24px;
+    color: #0b0b2c;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.description {
+    font-size: 10px;               
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.service {
+    flex: 1 1 200px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 16px;
+    color: #0b0b2c;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #555;
+}
+
+.results-section {
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  background:url('/headphones/images/Object.png') center/cover no-repeat;
+}
+
+.results-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.results-section p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hexagon-card {
+  width: 140px;
+  height: 160px;
+  background: url('/headphones/images/Polygon\ Copy\ 2.png') center/contain no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.hexagon-card .percent {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.hexagon-card .label {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: #0c1a2c;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #fefefe;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.cta-button {
+  display: block;
+  width: 160px;
+  margin: 20px auto 0;
+  padding: 12px 0;
+  background-color: #f96868;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.cta-button:hover {
+  background-color: #e05555;
+}
